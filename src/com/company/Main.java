@@ -8,6 +8,15 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextInt();
+        double b = scanner.nextInt();
+        int dni = 1;
+
+        while (a<b){
+            a *= 1.7;
+            dni++;
+        }
+
+        System.out.print(dni);
 
     }
 }
